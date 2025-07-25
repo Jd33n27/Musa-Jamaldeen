@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me - Jamal</title>
+    <title>About - Jamal</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="bg-info">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm text"
+    >
       <div class="container">
-        <a class="navbar-brand" href="#"><strong>JAMAL</strong></a>
+        <a class="navbar-brand text" href="index.html">Jamal</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,27 +39,37 @@
         </div>
       </div>
     </nav>
-    <div class="container py-5 vh-100">
-      <h1>About Me</h1>
-      <div class="bg-primary shadow p-3 rounded">
+
+    <section class="py-5 bg-info min-vh-100">
+      <h2 class="section-title text-center mt-3">About Me</h2>
+      <div class="fw-bold text mx-3">
         <p>
-          I'm Jamal, a frontend web and mobile developer based in Nigeria. I'm
-          passionate about building fast, accessible and visually appealing user
-          interfaces using technologies like Flutter, Dart, and Bootstrap.
+          My name is Jamal, and I’m a self-driven frontend developer and visual
+          storyteller. My journey into tech started out of curiosity, and today,
+          it has grown into a passion that drives me daily.
         </p>
-        <h3 class="mt-4">My Skills</h3>
+        <p>
+          I specialize in building responsive web interfaces with HTML, CSS,
+          Bootstrap, JavaScript, and Flutter. But I’m not just about code — my
+          graphics design background gives me an eye for detail, layout, and
+          color. This allows me to approach projects holistically, focusing on
+          both how things work and how they look.
+        </p>
+        <p>When I’m not writing code, you’ll probably find me:</p>
         <ul>
-          <li>HTML, CSS, JavaScript</li>
-          <li>Flutter & Dart (Mobile Apps)</li>
-          <li>Graphics Design & UI Tools</li>
+          <li>Designing UI mockups</li>
+          <li>Watching tutorials or reading tech blogs</li>
+          <li>Experimenting with animations or transitions</li>
+          <li>Helping friends with their personal projects</li>
         </ul>
+        <p>
+          I'm currently seeking opportunities to grow, connect with like-minded
+          people, and work on real-world challenges. If you have something in
+          mind, don’t hesitate to reach out.
+        </p>
       </div>
-    </div>
-    <footer class="bg-dark text-white py-3 text-center">
-      <div class="container">
-        <small>&copy; 2025 Jamal. All rights reserved.</small>
-      </div>
-      <script src="./js/bootstrap.bundle.min.js"></script>
-    </footer>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

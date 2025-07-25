@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="bg-info">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm"
+    >
       <div class="container">
-        <a class="navbar-brand" href="#"><strong>JAMAL</strong></a>
+        <a class="navbar-brand" href="index.html">Jamal</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,48 +39,77 @@
         </div>
       </div>
     </nav>
-    <div class="container py-5">
-      <h1>My Projects</h1>
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <div class="card bg-primary">
-            <img
-              src="https://cdn.guardian.ng/wp-content/uploads/2020/06/e-commerce-1.jpg"
-              class="card-img-top"
-              alt="Project 1"
-            />
+
+    <section class="container py-5 mt-5">
+      <h2 class="section-title text-center">My Projects</h2>
+      <div class="row g-4 justify-content-md-center">
+        <!-- Card 1 -->
+        <div class="col-md-8">
+          <div class="card shadow-sm bg-dark text-light">
             <div class="card-body">
-              <h5 class="card-title">Project One</h5>
-              <p class="card-text">
-                A responsive e-commerce website built with Bootstrap and
-                JavaScript.
+              <h5 class="card-title fs-2">Manage Landing Page</h5>
+              <p class="card-text fs-6 fs-sm-5">
+                Manage Landing page makes it simple for sofware teams to plan
+                day-to-day tasks while keeping the larger team goals in view.
               </p>
+              <a
+                href="https://github.com/Jd33n27/Manage-landing-page"
+                class="btn btn-outline-light btn-sm"
+                >View Code</a
+              >
+              <a
+                href="https://jd33n27.github.io/Manage-landing-page/"
+                class="btn btn-outline-light btn-sm"
+                >View Page</a
+              >
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-4">
-          <div class="card bg-primary">
-            <img
-              src="https://www.icoderzsolutions.com/blog/wp-content/uploads/2021/05/blog-On-Demand-Doctor-Appointment-Booking-App-Market-Predictions-Features-and-Cost.png"
-              class="card-img-top"
-              alt="Project 2"
-            />
+
+        <!-- Card 2 -->
+        <div class="col-md-8">
+          <div class="card shadow-sm bg-dark text-light">
             <div class="card-body">
-              <h5 class="card-title">Project Two</h5>
-              <p class="card-text">
-                A Flutter app for booking appointments with smooth UI
-                transitions.
+              <h5 class="card-title fs-2">Sign Up Form</h5>
+              <p class="card-text fs-5">A Simple Sign Up Form</p>
+              <a
+                href="https://github.com/Jd33n27/intro-component-with-signup-form"
+                class="btn btn-outline-light btn-sm"
+                >View Code</a
+              >
+              <a
+                href="https://jd33n27.github.io/intro-component-with-signup-form/"
+                class="btn btn-outline-light btn-sm"
+                >View Page</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-8">
+          <div class="card shadow-sm bg-dark text-light">
+            <div class="card-body">
+              <h5 class="card-title fs-2">Recipe Page</h5>
+              <p class="card-text fs-5">
+                A Recipe Page on how to make Omelettes
               </p>
+              <a
+                href="https://github.com/Jd33n27/Recipe-Page"
+                class="btn btn-outline-light btn-sm"
+                >View Code</a
+              >
+              <a
+                href="https://jd33n27.github.io/Recipe-Page/"
+                class="btn btn-outline-light btn-sm"
+                >View Page</a
+              >
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <footer class="bg-dark text-white py-3 text-center">
-      <div class="container">
-        <small>&copy; 2025 Jamal. All rights reserved.</small>
-      </div>
-    </footer>
+    </section>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
