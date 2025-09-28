@@ -3,17 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jamal's Portfolio</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <meta
+      name="description"
+      content="Jamal - Frontend Developer specializing in modern web applications. React, JavaScript, responsive design."
+    />
+    <title>Musa Jamaldeen - Frontend Developer | Portfolio</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm"
-    >
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Jamal</a>
+        <a class="navbar-brand fw-bold" href="#home">Musa Jamaldeen</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -25,16 +36,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -42,18 +53,233 @@
     </nav>
 
     <!-- Hero Section -->
-    <header
-      class="hero d-flex align-items-center justify-content-center vh-100 text-white"
-    >
-      <div class="container text-center text-danger">
-        <h1 class="display-4 fw-bold">Hi, I'm Jamal</h1>
-        <p class="lead">Frontend Developer</p>
-        <a href="projects.html" class="btn btn-info mt-3 text-dark"
-          >View My Work</a
-        >
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm Jamal</h1>
+          <p class="lead">
+            Frontend Developer passionate about creating beautiful, responsive
+            web experiences
+          </p>
+          <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+        </div>
       </div>
-    </header>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-grid fade-in">
+          <div>
+            <p class="fs-5 text-secondary mb-4">
+              I'm a passionate frontend developer who loves turning ideas into
+              interactive digital experiences. With a keen eye for design and a
+              solid foundation in modern web technologies, I build websites that
+              are not just functional, but delightful to use.
+            </p>
+            <p class="text-secondary">
+              I enjoy solving complex problems with clean, maintainable code and
+              I'm always eager to learn new technologies and best practices.
+              When I'm not coding, you'll find me exploring design trends or
+              working on another great project.
+            </p>
+          </div>
+          <div>
+            <h4 class="mb-3">Technologies I work with:</h4>
+            <div class="skills">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Bootstrap</span>
+              <span class="skill-tag">Tailwind</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Figma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+      <div class="container">
+        <h2 class="section-title fade-in">My Projects</h2>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 fade-in">
+            <div class="project-card">
+              <div class="project-image">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Manage Landing Page</h3>
+                <p class="text-secondary">
+                  Manage Landing page makes it simple for sofware teams to plan
+                  day-to-day tasks while keeping the larger team goals in view.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">Tailwind CSS</span>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://jd33n27.github.io/Manage-landing-page/"
+                    class="project-link"
+                    ><i class="fas fa-external-link-alt me-1"></i> Live Demo</a
+                  >
+                  <a
+                    href="https://github.com/Jd33n27/Manage-landing-page"
+                    class="project-link"
+                    ><i class="fab fa-github me-1"></i> Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 fade-in">
+            <div class="project-card">
+              <div class="project-image">
+                <i class="fas fa-user-plus"></i>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Sign Up Form</h3>
+                <p class="text-secondary">A simple Sign up form</p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">Tailwind CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://jd33n27.github.io/intro-component-with-signup-form/"
+                    class="project-link"
+                    ><i class="fas fa-external-link-alt me-1"></i> Live Demo</a
+                  >
+                  <a
+                    href="https://github.com/Jd33n27/intro-component-with-signup-form"
+                    class="project-link"
+                    ><i class="fab fa-github me-1"></i> Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 fade-in">
+            <div class="project-card">
+              <div class="project-image">
+                <i class="fas fa-cookie-bite"></i>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Recipe Page</h3>
+                <p class="text-secondary">
+                  A Recipe Page on how to make Omelettes
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">Tailwind CSS</span>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://jd33n27.github.io/Recipe-Page/"
+                    class="project-link"
+                    ><i class="fas fa-external-link-alt me-1"></i> Live Demo</a
+                  >
+                  <a
+                    href="https://github.com/Jd33n27/Recipe-Page"
+                    class="project-link"
+                    ><i class="fab fa-github me-1"></i> Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding contact">
+      <div class="container">
+        <h2 class="section-title fade-in">Get In Touch</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 fade-in">
+            <div class="contact-info">
+              <h4 class="mb-4">Let's work together!</h4>
+              <p class="text-secondary mb-4">
+                I'm always interested in new opportunities and exciting
+                projects. Feel free to reach out if you'd like to discuss a
+                project or just say hello.
+              </p>
+
+              <div class="contact-item">
+                <i class="fas fa-envelope contact-icon"></i>
+                <div>
+                  <strong>Email</strong><br />
+                  <a
+                    href="mailto:musajamaldeen627@gmail.com"
+                    class="text-decoration-none"
+                    >musajamaldeen627@gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fab fa-linkedin contact-icon"></i>
+                <div>
+                  <strong>LinkedIn</strong><br />
+                  <a
+                    href="https://www.linkedin.com/in/musa-jamaldeen-91854a30b"
+                    class="text-decoration-none"
+                    target="_blank"
+                    >Musa Jamaldeen</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fab fa-github contact-icon"></i>
+                <div>
+                  <strong>GitHub</strong><br />
+                  <a
+                    href="https://github.com/jd33n27"
+                    class="text-decoration-none"
+                    target="_blank"
+                    >github.com/jd33n27</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="social-links">
+          <a
+            href="https://github.com/jd33n27"
+            class="social-link"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/musa-jamaldeen-91854a30b/"
+            class="social-link"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:musajamaldeen627@gmail.com" class="social-link"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <p>&copy; 2025 Musa Jamaldeen. Built with passion and Bootstrap</p>
+      </div>
+    </footer>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

@@ -8,7 +8,6 @@ It showcases my work as a **Frontend Developer, Mobile App Developer, and Graphi
 - Responsive design using **Bootstrap 5**
 - Simple and clean **portfolio theme**
 - Sections for **About Me, Projects, and Contact**
-- Easy to customize and update
 
 ### Purpose
 
